@@ -1,0 +1,42 @@
+[
+  {
+    "id": "lvl4",
+    "text": "Risk level 4 (Critical): Immediate danger. Slow down at once.",
+    "type": "risk"
+  },
+  {
+    "id": "lvl3",
+    "text": "Risk level 3 (High): Increase following distance and reduce speed.",
+    "type": "risk"
+  },
+  {
+    "id": "lvl2",
+    "text": "Risk level 2 (Moderate): Be vigilant, maintain lane discipline.",
+    "type": "risk"
+  },
+  {
+    "id": "lvl1",
+    "text": "Risk level 1 (Low): Normal driving but stay cautious.",
+    "type": "risk"
+  },
+  {
+    "id": "lvl0",
+    "text": "Risk level 0 (Very Low): Safe conditions.",
+    "type": "risk"
+  },
+  {
+    "id": "faq1",
+    "text": "Stereo depth uses SGBM disparity; closer objects have higher disparity.",
+    "type": "faq"
+  },
+  {
+    "id": "faq2",
+    "text": "Speed is estimated from object track displacement across frames after calibration.",
+    "type": "faq"
+  },
+  {
+    "id": "faq3",
+    "text": "Driver distraction increases risk even at low speeds.",
+    "type": "behavior"
+  }
+]
