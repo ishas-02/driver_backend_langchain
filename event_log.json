@@ -757,5 +757,337 @@
     "used_llm": true,
     "latency_sec": 3.7446,
     "context": {}
+  },
+  {
+    "type": "ask",
+    "timestamp_query": 1767081159.0450501,
+    "timestamp_resp": 1767081159.045074,
+    "query": "What does risk level 4 mean?",
+    "answer": "Temporary issue: 'RagChain' object has no attribute 'query'",
+    "chunks": [],
+    "success": false,
+    "used_llm": false,
+    "latency_sec": 0.0,
+    "context": {}
+  },
+  {
+    "type": "ask",
+    "timestamp_query": 1767081776.347352,
+    "timestamp_resp": 1767081778.2765691,
+    "query": "What does risk level 4 mean?",
+    "answer": "Risk level 4 (Critical): Immediate danger. Slow down at once. Risk level 0 (Very Low): Safe conditions. Risk level 2 (Moderate): Be vigilant, maintain lane discipline.",
+    "chunks": [
+      "Risk level 4 (Critical): Immediate danger. Slow down at once.",
+      "Risk level 0 (Very Low): Safe conditions.",
+      "Risk level 2 (Moderate): Be vigilant, maintain lane discipline."
+    ],
+    "used_llm": false,
+    "latency_sec": 1.9291,
+    "success": true,
+    "context": {}
+  },
+  {
+    "type": "ask",
+    "timestamp_query": 1767082113.521701,
+    "timestamp_resp": 1767082113.837322,
+    "query": "What does risk level 4 mean?",
+    "answer": "Risk level 4 (Critical): Immediate danger. Slow down at once. Risk level 0 (Very Low): Safe conditions. Risk level 2 (Moderate): Be vigilant, maintain lane discipline.",
+    "chunks": [
+      "Risk level 4 (Critical): Immediate danger. Slow down at once.",
+      "Risk level 0 (Very Low): Safe conditions.",
+      "Risk level 2 (Moderate): Be vigilant, maintain lane discipline."
+    ],
+    "used_llm": false,
+    "latency_sec": 0.3156,
+    "success": true,
+    "precision_at_k": 1.0,
+    "recall_at_k": 1.0,
+    "f1_at_k": 1.0,
+    "context": {}
+  },
+  {
+    "type": "ask",
+    "timestamp_query": 1767082270.124426,
+    "timestamp_resp": 1767082270.431524,
+    "query": "What does risk level 0 mean?",
+    "answer": "Risk level 0 (Very Low): Safe conditions. Risk level 1 (Low): Normal driving but stay cautious. Risk level 4 (Critical): Immediate danger. Slow down at once.",
+    "chunks": [
+      "Risk level 0 (Very Low): Safe conditions.",
+      "Risk level 1 (Low): Normal driving but stay cautious.",
+      "Risk level 4 (Critical): Immediate danger. Slow down at once."
+    ],
+    "used_llm": false,
+    "latency_sec": 0.3071,
+    "success": true,
+    "precision_at_k": 1.0,
+    "recall_at_k": 1.0,
+    "f1_at_k": 1.0,
+    "context": {}
+  },
+  {
+    "type": "ask",
+    "timestamp_query": 1767082270.758116,
+    "timestamp_resp": 1767082270.772646,
+    "query": "What does risk level 1 mean?",
+    "answer": "Risk level 0 (Very Low): Safe conditions. Risk level 1 (Low): Normal driving but stay cautious. Risk level 4 (Critical): Immediate danger. Slow down at once.",
+    "chunks": [
+      "Risk level 0 (Very Low): Safe conditions.",
+      "Risk level 1 (Low): Normal driving but stay cautious.",
+      "Risk level 4 (Critical): Immediate danger. Slow down at once."
+    ],
+    "used_llm": false,
+    "latency_sec": 0.0145,
+    "success": true,
+    "precision_at_k": 1.0,
+    "recall_at_k": 1.0,
+    "f1_at_k": 1.0,
+    "context": {}
+  },
+  {
+    "type": "ask",
+    "timestamp_query": 1767082271.104363,
+    "timestamp_resp": 1767082271.1170099,
+    "query": "What does risk level 2 mean?",
+    "answer": "Risk level 0 (Very Low): Safe conditions. Risk level 2 (Moderate): Be vigilant, maintain lane discipline. Risk level 1 (Low): Normal driving but stay cautious.",
+    "chunks": [
+      "Risk level 0 (Very Low): Safe conditions.",
+      "Risk level 2 (Moderate): Be vigilant, maintain lane discipline.",
+      "Risk level 1 (Low): Normal driving but stay cautious."
+    ],
+    "used_llm": false,
+    "latency_sec": 0.0126,
+    "success": true,
+    "precision_at_k": 1.0,
+    "recall_at_k": 1.0,
+    "f1_at_k": 1.0,
+    "context": {}
+  },
+  {
+    "type": "ask",
+    "timestamp_query": 1767082271.442399,
+    "timestamp_resp": 1767082271.452443,
+    "query": "What does risk level 3 mean?",
+    "answer": "Risk level 0 (Very Low): Safe conditions. Risk level 3 (High): Increase following distance and reduce speed. Risk level 2 (Moderate): Be vigilant, maintain lane discipline.",
+    "chunks": [
+      "Risk level 0 (Very Low): Safe conditions.",
+      "Risk level 3 (High): Increase following distance and reduce speed.",
+      "Risk level 2 (Moderate): Be vigilant, maintain lane discipline."
+    ],
+    "used_llm": false,
+    "latency_sec": 0.01,
+    "success": true,
+    "precision_at_k": 1.0,
+    "recall_at_k": 1.0,
+    "f1_at_k": 1.0,
+    "context": {}
+  },
+  {
+    "type": "ask",
+    "timestamp_query": 1767082271.768811,
+    "timestamp_resp": 1767082271.777407,
+    "query": "What does risk level 4 mean?",
+    "answer": "Risk level 4 (Critical): Immediate danger. Slow down at once. Risk level 0 (Very Low): Safe conditions. Risk level 2 (Moderate): Be vigilant, maintain lane discipline.",
+    "chunks": [
+      "Risk level 4 (Critical): Immediate danger. Slow down at once.",
+      "Risk level 0 (Very Low): Safe conditions.",
+      "Risk level 2 (Moderate): Be vigilant, maintain lane discipline."
+    ],
+    "used_llm": false,
+    "latency_sec": 0.0086,
+    "success": true,
+    "precision_at_k": 1.0,
+    "recall_at_k": 1.0,
+    "f1_at_k": 1.0,
+    "context": {}
+  },
+  {
+    "type": "ask",
+    "timestamp_query": 1767082272.103467,
+    "timestamp_resp": 1767082272.482326,
+    "query": "What should I do if the system says critical risk?",
+    "answer": "Risk level 4 (Critical): Immediate danger. Slow down at once. Risk level 0 (Very Low): Safe conditions. Risk level 1 (Low): Normal driving but stay cautious.",
+    "chunks": [
+      "Risk level 4 (Critical): Immediate danger. Slow down at once.",
+      "Risk level 0 (Very Low): Safe conditions.",
+      "Risk level 1 (Low): Normal driving but stay cautious."
+    ],
+    "used_llm": false,
+    "latency_sec": 0.3789,
+    "success": true,
+    "precision_at_k": 0.0,
+    "recall_at_k": 0.0,
+    "f1_at_k": 0.0,
+    "context": {}
+  },
+  {
+    "type": "ask",
+    "timestamp_query": 1767082272.8092349,
+    "timestamp_resp": 1767082273.086242,
+    "query": "How can I reduce risk while driving fast?",
+    "answer": "Driver distraction (e.g., texting) increases risk even at low speeds. Driving in rain: reduce speed, increase following distance, avoid sudden braking, and keep headlights on. Observed driving context: risk_level=NA, depth=18.0, speed=77.98, behavior=C0. Recommendation: if risk is elevated, reduce speed, increase distance, and avoid distractions.",
+    "chunks": [
+      "Driver distraction (e.g., texting) increases risk even at low speeds.",
+      "Driving in rain: reduce speed, increase following distance, avoid sudden braking, and keep headlights on.",
+      "Observed driving context: risk_level=NA, depth=18.0, speed=77.98, behavior=C0. Recommendation: if risk is elevated, reduce speed, increase distance, and avoid distractions."
+    ],
+    "used_llm": false,
+    "latency_sec": 0.277,
+    "success": true,
+    "precision_at_k": 1.0,
+    "recall_at_k": 1.0,
+    "f1_at_k": 1.0,
+    "context": {}
+  },
+  {
+    "type": "ask",
+    "timestamp_query": 1767082273.40713,
+    "timestamp_resp": 1767082273.4185102,
+    "query": "How does speed affect accident risk?",
+    "answer": "Driver distraction (e.g., texting) increases risk even at low speeds. Observed driving context: risk_level=NA, depth=18.0, speed=77.98, behavior=C0. Recommendation: if risk is elevated, reduce speed, increase distance, and avoid distractions. Observed driving context: risk_level=NA, depth=15.3, speed=65.98, behavior=C0. Recommendation: if risk is elevated, reduce speed, increase distance, and avoid distractions.",
+    "chunks": [
+      "Driver distraction (e.g., texting) increases risk even at low speeds.",
+      "Observed driving context: risk_level=NA, depth=18.0, speed=77.98, behavior=C0. Recommendation: if risk is elevated, reduce speed, increase distance, and avoid distractions.",
+      "Observed driving context: risk_level=NA, depth=15.3, speed=65.98, behavior=C0. Recommendation: if risk is elevated, reduce speed, increase distance, and avoid distractions."
+    ],
+    "used_llm": false,
+    "latency_sec": 0.0114,
+    "success": true,
+    "precision_at_k": 0.0,
+    "recall_at_k": 0.0,
+    "f1_at_k": 0.0,
+    "context": {}
+  },
+  {
+    "type": "ask",
+    "timestamp_query": 1767082273.737424,
+    "timestamp_resp": 1767082274.076462,
+    "query": "What does driver distraction mean?",
+    "answer": "Driver distraction (e.g., texting) increases risk even at low speeds. Observed driving context: risk_level=NA, depth=26.0, speed=47.61, behavior=C0. Recommendation: if risk is elevated, reduce speed, increase distance, and avoid distractions. Observed driving context: risk_level=NA, depth=23.0, speed=27.59, behavior=C0. Recommendation: if risk is elevated, reduce speed, increase distance, and avoid distractions.",
+    "chunks": [
+      "Driver distraction (e.g., texting) increases risk even at low speeds.",
+      "Observed driving context: risk_level=NA, depth=26.0, speed=47.61, behavior=C0. Recommendation: if risk is elevated, reduce speed, increase distance, and avoid distractions.",
+      "Observed driving context: risk_level=NA, depth=23.0, speed=27.59, behavior=C0. Recommendation: if risk is elevated, reduce speed, increase distance, and avoid distractions."
+    ],
+    "used_llm": false,
+    "latency_sec": 0.339,
+    "success": true,
+    "precision_at_k": 0.333,
+    "recall_at_k": 1.0,
+    "f1_at_k": 0.5,
+    "context": {}
+  },
+  {
+    "type": "ask",
+    "timestamp_query": 1767082274.398193,
+    "timestamp_resp": 1767082274.409204,
+    "query": "Why is following distance important?",
+    "answer": "Risk level 3 (High): Increase following distance and reduce speed. Safe following distance: use at least a 3-second gap; increase to 4\u20136 seconds in rain or low visibility. Stereo depth uses SGBM disparity; closer objects have higher disparity.",
+    "chunks": [
+      "Risk level 3 (High): Increase following distance and reduce speed.",
+      "Safe following distance: use at least a 3-second gap; increase to 4\u20136 seconds in rain or low visibility.",
+      "Stereo depth uses SGBM disparity; closer objects have higher disparity."
+    ],
+    "used_llm": false,
+    "latency_sec": 0.011,
+    "success": true,
+    "precision_at_k": 0.667,
+    "recall_at_k": 1.0,
+    "f1_at_k": 0.8,
+    "context": {}
+  },
+  {
+    "type": "ask",
+    "timestamp_query": 1767082274.735264,
+    "timestamp_resp": 1767082275.01582,
+    "query": "What is a safe distance to follow another vehicle?",
+    "answer": "Safe following distance: use at least a 3-second gap; increase to 4\u20136 seconds in rain or low visibility. Safe driving: keep eyes on the road, hands on the wheel, maintain steady speed and lane position. Risk level 3 (High): Increase following distance and reduce speed.",
+    "chunks": [
+      "Safe following distance: use at least a 3-second gap; increase to 4\u20136 seconds in rain or low visibility.",
+      "Safe driving: keep eyes on the road, hands on the wheel, maintain steady speed and lane position.",
+      "Risk level 3 (High): Increase following distance and reduce speed."
+    ],
+    "used_llm": false,
+    "latency_sec": 0.2805,
+    "success": true,
+    "precision_at_k": 1.0,
+    "recall_at_k": 1.0,
+    "f1_at_k": 1.0,
+    "context": {}
+  },
+  {
+    "type": "ask",
+    "timestamp_query": 1767082275.335962,
+    "timestamp_resp": 1767082275.612009,
+    "query": "How does stereo depth help in safety?",
+    "answer": "Stereo depth uses SGBM disparity; closer objects have higher disparity. Observed driving context: risk_level=NA, depth=20.4, speed=24.45, behavior=C3. Recommendation: if risk is elevated, reduce speed, increase distance, and avoid distractions. Safe driving: keep eyes on the road, hands on the wheel, maintain steady speed and lane position.",
+    "chunks": [
+      "Stereo depth uses SGBM disparity; closer objects have higher disparity.",
+      "Observed driving context: risk_level=NA, depth=20.4, speed=24.45, behavior=C3. Recommendation: if risk is elevated, reduce speed, increase distance, and avoid distractions.",
+      "Safe driving: keep eyes on the road, hands on the wheel, maintain steady speed and lane position."
+    ],
+    "used_llm": false,
+    "latency_sec": 0.276,
+    "success": true,
+    "precision_at_k": 0.333,
+    "recall_at_k": 1.0,
+    "f1_at_k": 0.5,
+    "context": {}
+  },
+  {
+    "type": "ask",
+    "timestamp_query": 1767082275.937292,
+    "timestamp_resp": 1767082275.94703,
+    "query": "How does depth estimation affect risk prediction?",
+    "answer": "Observed driving context: risk_level=NA, depth=20.7, speed=86.77, behavior=C9. Recommendation: if risk is elevated, reduce speed, increase distance, and avoid distractions. Observed driving context: risk_level=NA, depth=17.7, speed=25.86, behavior=C7. Recommendation: if risk is elevated, reduce speed, increase distance, and avoid distractions. Observed driving context: risk_level=NA, depth=23.6, speed=64.56, behavior=C8. Recommendation: if risk is elevated, reduce speed, increase distance, and avoid distractions.",
+    "chunks": [
+      "Observed driving context: risk_level=NA, depth=20.7, speed=86.77, behavior=C9. Recommendation: if risk is elevated, reduce speed, increase distance, and avoid distractions.",
+      "Observed driving context: risk_level=NA, depth=17.7, speed=25.86, behavior=C7. Recommendation: if risk is elevated, reduce speed, increase distance, and avoid distractions.",
+      "Observed driving context: risk_level=NA, depth=23.6, speed=64.56, behavior=C8. Recommendation: if risk is elevated, reduce speed, increase distance, and avoid distractions."
+    ],
+    "used_llm": false,
+    "latency_sec": 0.0097,
+    "success": true,
+    "precision_at_k": 1.0,
+    "recall_at_k": 1.0,
+    "f1_at_k": 1.0,
+    "context": {}
+  },
+  {
+    "type": "ask",
+    "timestamp_query": 1767082276.276027,
+    "timestamp_resp": 1767082276.284089,
+    "query": "Why did the system warn me now?",
+    "answer": "Risk level 4 (Critical): Immediate danger. Slow down at once. Risk level 1 (Low): Normal driving but stay cautious. Risk level 2 (Moderate): Be vigilant, maintain lane discipline.",
+    "chunks": [
+      "Risk level 4 (Critical): Immediate danger. Slow down at once.",
+      "Risk level 1 (Low): Normal driving but stay cautious.",
+      "Risk level 2 (Moderate): Be vigilant, maintain lane discipline."
+    ],
+    "used_llm": false,
+    "latency_sec": 0.0081,
+    "success": true,
+    "precision_at_k": 0.0,
+    "recall_at_k": 0.0,
+    "f1_at_k": 0.0,
+    "context": {}
+  },
+  {
+    "type": "ask",
+    "timestamp_query": 1767082276.611952,
+    "timestamp_resp": 1767082276.622783,
+    "query": "How can I improve my driving behavior?",
+    "answer": "Observed driving context: risk_level=NA, depth=17.4, speed=31.14, behavior=C4. Recommendation: if risk is elevated, reduce speed, increase distance, and avoid distractions. Observed driving context: risk_level=NA, depth=18.0, speed=77.98, behavior=C0. Recommendation: if risk is elevated, reduce speed, increase distance, and avoid distractions. Observed driving context: risk_level=NA, depth=15.3, speed=65.98, behavior=C0. Recommendation: if risk is elevated, reduce speed, increase distance, and avoid distractions.",
+    "chunks": [
+      "Observed driving context: risk_level=NA, depth=17.4, speed=31.14, behavior=C4. Recommendation: if risk is elevated, reduce speed, increase distance, and avoid distractions.",
+      "Observed driving context: risk_level=NA, depth=18.0, speed=77.98, behavior=C0. Recommendation: if risk is elevated, reduce speed, increase distance, and avoid distractions.",
+      "Observed driving context: risk_level=NA, depth=15.3, speed=65.98, behavior=C0. Recommendation: if risk is elevated, reduce speed, increase distance, and avoid distractions."
+    ],
+    "used_llm": false,
+    "latency_sec": 0.0108,
+    "success": true,
+    "precision_at_k": 1.0,
+    "recall_at_k": 1.0,
+    "f1_at_k": 1.0,
+    "context": {}
   }
 ]
