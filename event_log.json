@@ -1089,5 +1089,563 @@
     "recall_at_k": 1.0,
     "f1_at_k": 1.0,
     "context": {}
+  },
+  {
+    "type": "ask",
+    "timestamp_query": 1767083948.449562,
+    "timestamp_resp": 1767083948.7927449,
+    "query": "What does risk level 0 mean?",
+    "answer": "Risk level 0 (Very Low): Safe conditions. Risk level 1 (Low): Normal driving but stay cautious. Risk level 4 (Critical): Immediate danger. Slow down at once.",
+    "chunks": [
+      "Risk level 0 (Very Low): Safe conditions.",
+      "Risk level 1 (Low): Normal driving but stay cautious.",
+      "Risk level 4 (Critical): Immediate danger. Slow down at once."
+    ],
+    "used_llm": false,
+    "latency_sec": 0.3431,
+    "precision_at_k": 1.0,
+    "recall_at_k": 1.0,
+    "f1_at_k": 1.0,
+    "success": true
+  },
+  {
+    "type": "ask",
+    "timestamp_query": 1767083949.115687,
+    "timestamp_resp": 1767083949.128514,
+    "query": "What does risk level 1 mean?",
+    "answer": "Risk level 0 (Very Low): Safe conditions. Risk level 1 (Low): Normal driving but stay cautious. Risk level 4 (Critical): Immediate danger. Slow down at once.",
+    "chunks": [
+      "Risk level 0 (Very Low): Safe conditions.",
+      "Risk level 1 (Low): Normal driving but stay cautious.",
+      "Risk level 4 (Critical): Immediate danger. Slow down at once."
+    ],
+    "used_llm": false,
+    "latency_sec": 0.0128,
+    "precision_at_k": 1.0,
+    "recall_at_k": 1.0,
+    "f1_at_k": 1.0,
+    "success": true
+  },
+  {
+    "type": "ask",
+    "timestamp_query": 1767083949.448294,
+    "timestamp_resp": 1767083949.457261,
+    "query": "What does risk level 2 mean?",
+    "answer": "Risk level 0 (Very Low): Safe conditions. Risk level 2 (Moderate): Be vigilant, maintain lane discipline. Risk level 1 (Low): Normal driving but stay cautious.",
+    "chunks": [
+      "Risk level 0 (Very Low): Safe conditions.",
+      "Risk level 2 (Moderate): Be vigilant, maintain lane discipline.",
+      "Risk level 1 (Low): Normal driving but stay cautious."
+    ],
+    "used_llm": false,
+    "latency_sec": 0.009,
+    "precision_at_k": 1.0,
+    "recall_at_k": 1.0,
+    "f1_at_k": 1.0,
+    "success": true
+  },
+  {
+    "type": "ask",
+    "timestamp_query": 1767083949.780158,
+    "timestamp_resp": 1767083949.792973,
+    "query": "What does risk level 3 mean?",
+    "answer": "Risk level 0 (Very Low): Safe conditions. Risk level 3 (High): Increase following distance and reduce speed. Risk level 2 (Moderate): Be vigilant, maintain lane discipline.",
+    "chunks": [
+      "Risk level 0 (Very Low): Safe conditions.",
+      "Risk level 3 (High): Increase following distance and reduce speed.",
+      "Risk level 2 (Moderate): Be vigilant, maintain lane discipline."
+    ],
+    "used_llm": false,
+    "latency_sec": 0.0128,
+    "precision_at_k": 1.0,
+    "recall_at_k": 1.0,
+    "f1_at_k": 1.0,
+    "success": true
+  },
+  {
+    "type": "ask",
+    "timestamp_query": 1767083950.121554,
+    "timestamp_resp": 1767083950.135654,
+    "query": "What does risk level 4 mean?",
+    "answer": "Risk level 4 (Critical): Immediate danger. Slow down at once. Risk level 0 (Very Low): Safe conditions. Risk level 2 (Moderate): Be vigilant, maintain lane discipline.",
+    "chunks": [
+      "Risk level 4 (Critical): Immediate danger. Slow down at once.",
+      "Risk level 0 (Very Low): Safe conditions.",
+      "Risk level 2 (Moderate): Be vigilant, maintain lane discipline."
+    ],
+    "used_llm": false,
+    "latency_sec": 0.0141,
+    "precision_at_k": 1.0,
+    "recall_at_k": 1.0,
+    "f1_at_k": 1.0,
+    "success": true
+  },
+  {
+    "type": "ask",
+    "timestamp_query": 1767083950.46176,
+    "timestamp_resp": 1767083950.5072908,
+    "query": "What should I do if the system says critical risk?",
+    "answer": "Risk level 4 (Critical): Immediate danger. Slow down at once. Risk level 0 (Very Low): Safe conditions. Risk level 1 (Low): Normal driving but stay cautious.",
+    "chunks": [
+      "Risk level 4 (Critical): Immediate danger. Slow down at once.",
+      "Risk level 0 (Very Low): Safe conditions.",
+      "Risk level 1 (Low): Normal driving but stay cautious."
+    ],
+    "used_llm": false,
+    "latency_sec": 0.0455,
+    "precision_at_k": 1.0,
+    "recall_at_k": 1.0,
+    "f1_at_k": 1.0,
+    "success": true
+  },
+  {
+    "type": "ask",
+    "timestamp_query": 1767083950.833714,
+    "timestamp_resp": 1767083950.873924,
+    "query": "How can I reduce risk while driving fast?",
+    "answer": "Driver distraction increases risk even at low speeds. Risk level 3 (High): Increase following distance and reduce speed. Risk level 1 (Low): Normal driving but stay cautious.",
+    "chunks": [
+      "Driver distraction increases risk even at low speeds.",
+      "Risk level 3 (High): Increase following distance and reduce speed.",
+      "Risk level 1 (Low): Normal driving but stay cautious."
+    ],
+    "used_llm": false,
+    "latency_sec": 0.0402,
+    "precision_at_k": 1.0,
+    "recall_at_k": 1.0,
+    "f1_at_k": 1.0,
+    "success": true
+  },
+  {
+    "type": "ask",
+    "timestamp_query": 1767083951.202379,
+    "timestamp_resp": 1767083951.2150168,
+    "query": "How does speed affect accident risk?",
+    "answer": "Driver distraction increases risk even at low speeds. Risk level 4 (Critical): Immediate danger. Slow down at once. Risk level 3 (High): Increase following distance and reduce speed.",
+    "chunks": [
+      "Driver distraction increases risk even at low speeds.",
+      "Risk level 4 (Critical): Immediate danger. Slow down at once.",
+      "Risk level 3 (High): Increase following distance and reduce speed."
+    ],
+    "used_llm": false,
+    "latency_sec": 0.0126,
+    "precision_at_k": 1.0,
+    "recall_at_k": 1.0,
+    "f1_at_k": 1.0,
+    "success": true
+  },
+  {
+    "type": "ask",
+    "timestamp_query": 1767083951.5425322,
+    "timestamp_resp": 1767083951.580138,
+    "query": "What does driver distraction mean?",
+    "answer": "Driver distraction increases risk even at low speeds. Risk level 1 (Low): Normal driving but stay cautious. Risk level 2 (Moderate): Be vigilant, maintain lane discipline.",
+    "chunks": [
+      "Driver distraction increases risk even at low speeds.",
+      "Risk level 1 (Low): Normal driving but stay cautious.",
+      "Risk level 2 (Moderate): Be vigilant, maintain lane discipline."
+    ],
+    "used_llm": false,
+    "latency_sec": 0.0376,
+    "precision_at_k": 1.0,
+    "recall_at_k": 1.0,
+    "f1_at_k": 1.0,
+    "success": true
+  },
+  {
+    "type": "ask",
+    "timestamp_query": 1767083951.905906,
+    "timestamp_resp": 1767083951.9194188,
+    "query": "Why is following distance important?",
+    "answer": "Risk level 3 (High): Increase following distance and reduce speed. Stereo depth uses SGBM disparity; closer objects have higher disparity. Speed is estimated from object track displacement across frames after calibration.",
+    "chunks": [
+      "Risk level 3 (High): Increase following distance and reduce speed.",
+      "Stereo depth uses SGBM disparity; closer objects have higher disparity.",
+      "Speed is estimated from object track displacement across frames after calibration."
+    ],
+    "used_llm": false,
+    "latency_sec": 0.0135,
+    "precision_at_k": 0.667,
+    "recall_at_k": 1.0,
+    "f1_at_k": 0.8,
+    "success": true
+  },
+  {
+    "type": "ask",
+    "timestamp_query": 1767083952.255413,
+    "timestamp_resp": 1767083952.298508,
+    "query": "What is a safe distance to follow another vehicle?",
+    "answer": "Risk level 3 (High): Increase following distance and reduce speed. Risk level 1 (Low): Normal driving but stay cautious. Risk level 2 (Moderate): Be vigilant, maintain lane discipline.",
+    "chunks": [
+      "Risk level 3 (High): Increase following distance and reduce speed.",
+      "Risk level 1 (Low): Normal driving but stay cautious.",
+      "Risk level 2 (Moderate): Be vigilant, maintain lane discipline."
+    ],
+    "used_llm": false,
+    "latency_sec": 0.0431,
+    "precision_at_k": 1.0,
+    "recall_at_k": 1.0,
+    "f1_at_k": 1.0,
+    "success": true
+  },
+  {
+    "type": "ask",
+    "timestamp_query": 1767083952.618741,
+    "timestamp_resp": 1767083952.646958,
+    "query": "How does stereo depth help in safety?",
+    "answer": "Stereo depth uses SGBM disparity; closer objects have higher disparity. Driver distraction increases risk even at low speeds. Risk level 3 (High): Increase following distance and reduce speed.",
+    "chunks": [
+      "Stereo depth uses SGBM disparity; closer objects have higher disparity.",
+      "Driver distraction increases risk even at low speeds.",
+      "Risk level 3 (High): Increase following distance and reduce speed."
+    ],
+    "used_llm": false,
+    "latency_sec": 0.0282,
+    "precision_at_k": 0.667,
+    "recall_at_k": 1.0,
+    "f1_at_k": 0.8,
+    "success": true
+  },
+  {
+    "type": "ask",
+    "timestamp_query": 1767083952.970742,
+    "timestamp_resp": 1767083952.983093,
+    "query": "How does depth estimation affect risk prediction?",
+    "answer": "Stereo depth uses SGBM disparity; closer objects have higher disparity. Risk level 3 (High): Increase following distance and reduce speed. Risk level 1 (Low): Normal driving but stay cautious.",
+    "chunks": [
+      "Stereo depth uses SGBM disparity; closer objects have higher disparity.",
+      "Risk level 3 (High): Increase following distance and reduce speed.",
+      "Risk level 1 (Low): Normal driving but stay cautious."
+    ],
+    "used_llm": false,
+    "latency_sec": 0.0123,
+    "precision_at_k": 0.667,
+    "recall_at_k": 1.0,
+    "f1_at_k": 0.8,
+    "success": true
+  },
+  {
+    "type": "ask",
+    "timestamp_query": 1767083953.3081448,
+    "timestamp_resp": 1767083953.321277,
+    "query": "Why did the system warn me now?",
+    "answer": "Risk level 4 (Critical): Immediate danger. Slow down at once. Risk level 1 (Low): Normal driving but stay cautious. Risk level 2 (Moderate): Be vigilant, maintain lane discipline.",
+    "chunks": [
+      "Risk level 4 (Critical): Immediate danger. Slow down at once.",
+      "Risk level 1 (Low): Normal driving but stay cautious.",
+      "Risk level 2 (Moderate): Be vigilant, maintain lane discipline."
+    ],
+    "used_llm": false,
+    "latency_sec": 0.0131,
+    "precision_at_k": 1.0,
+    "recall_at_k": 1.0,
+    "f1_at_k": 1.0,
+    "success": true
+  },
+  {
+    "type": "ask",
+    "timestamp_query": 1767083953.6476958,
+    "timestamp_resp": 1767083953.66047,
+    "query": "How can I improve my driving behavior?",
+    "answer": "Driver distraction increases risk even at low speeds. Risk level 2 (Moderate): Be vigilant, maintain lane discipline. Risk level 1 (Low): Normal driving but stay cautious.",
+    "chunks": [
+      "Driver distraction increases risk even at low speeds.",
+      "Risk level 2 (Moderate): Be vigilant, maintain lane discipline.",
+      "Risk level 1 (Low): Normal driving but stay cautious."
+    ],
+    "used_llm": false,
+    "latency_sec": 0.0128,
+    "precision_at_k": 1.0,
+    "recall_at_k": 1.0,
+    "f1_at_k": 1.0,
+    "success": true
+  },
+  {
+    "type": "ask",
+    "timestamp_query": 1767084283.0312781,
+    "timestamp_resp": 1767084288.1143,
+    "query": "What does risk level 4 mean?",
+    "answer": "Risk level 4 (Critical): Immediate danger. Slow down at once. Risk level 0 (Very Low): Safe conditions. Risk level 2 (Moderate): Be vigilant, maintain lane discipline.",
+    "chunks": [
+      "Risk level 4 (Critical): Immediate danger. Slow down at once.",
+      "Risk level 0 (Very Low): Safe conditions.",
+      "Risk level 2 (Moderate): Be vigilant, maintain lane discipline."
+    ],
+    "used_llm": true,
+    "latency_sec": 5.0826,
+    "precision_at_k": 1.0,
+    "recall_at_k": 1.0,
+    "f1_at_k": 1.0,
+    "success": true
+  },
+  {
+    "type": "ask",
+    "timestamp_query": 1767084298.8461492,
+    "timestamp_resp": 1767084301.922642,
+    "query": "What does risk level 0 mean?",
+    "answer": "Risk level 0 (Very Low): Safe conditions. Risk level 1 (Low): Normal driving but stay cautious. Risk level 4 (Critical): Immediate danger. Slow down at once.",
+    "chunks": [
+      "Risk level 0 (Very Low): Safe conditions.",
+      "Risk level 1 (Low): Normal driving but stay cautious.",
+      "Risk level 4 (Critical): Immediate danger. Slow down at once."
+    ],
+    "used_llm": true,
+    "latency_sec": 3.0762,
+    "precision_at_k": 1.0,
+    "recall_at_k": 1.0,
+    "f1_at_k": 1.0,
+    "success": true
+  },
+  {
+    "type": "ask",
+    "timestamp_query": 1767084302.248301,
+    "timestamp_resp": 1767084305.480607,
+    "query": "What does risk level 1 mean?",
+    "answer": "Risk level 0 (Very Low): Safe conditions. Risk level 1 (Low): Normal driving but stay cautious. Risk level 4 (Critical): Immediate danger. Slow down at once.",
+    "chunks": [
+      "Risk level 0 (Very Low): Safe conditions.",
+      "Risk level 1 (Low): Normal driving but stay cautious.",
+      "Risk level 4 (Critical): Immediate danger. Slow down at once."
+    ],
+    "used_llm": true,
+    "latency_sec": 3.2323,
+    "precision_at_k": 1.0,
+    "recall_at_k": 1.0,
+    "f1_at_k": 1.0,
+    "success": true
+  },
+  {
+    "type": "ask",
+    "timestamp_query": 1767084305.813579,
+    "timestamp_resp": 1767084308.837763,
+    "query": "What does risk level 2 mean?",
+    "answer": "Risk level 0 (Very Low): Safe conditions. Risk level 2 (Moderate): Be vigilant, maintain lane discipline. Risk level 1 (Low): Normal driving but stay cautious.",
+    "chunks": [
+      "Risk level 0 (Very Low): Safe conditions.",
+      "Risk level 2 (Moderate): Be vigilant, maintain lane discipline.",
+      "Risk level 1 (Low): Normal driving but stay cautious."
+    ],
+    "used_llm": true,
+    "latency_sec": 3.0241,
+    "precision_at_k": 1.0,
+    "recall_at_k": 1.0,
+    "f1_at_k": 1.0,
+    "success": true
+  },
+  {
+    "type": "ask",
+    "timestamp_query": 1767084309.1644711,
+    "timestamp_resp": 1767084312.211325,
+    "query": "What does risk level 3 mean?",
+    "answer": "Risk level 0 (Very Low): Safe conditions. Risk level 3 (High): Increase following distance and reduce speed. Risk level 2 (Moderate): Be vigilant, maintain lane discipline.",
+    "chunks": [
+      "Risk level 0 (Very Low): Safe conditions.",
+      "Risk level 3 (High): Increase following distance and reduce speed.",
+      "Risk level 2 (Moderate): Be vigilant, maintain lane discipline."
+    ],
+    "used_llm": true,
+    "latency_sec": 3.0468,
+    "precision_at_k": 1.0,
+    "recall_at_k": 1.0,
+    "f1_at_k": 1.0,
+    "success": true
+  },
+  {
+    "type": "ask",
+    "timestamp_query": 1767084312.54057,
+    "timestamp_resp": 1767084315.640936,
+    "query": "What does risk level 4 mean?",
+    "answer": "Risk level 4 (Critical): Immediate danger. Slow down at once. Risk level 0 (Very Low): Safe conditions. Risk level 2 (Moderate): Be vigilant, maintain lane discipline.",
+    "chunks": [
+      "Risk level 4 (Critical): Immediate danger. Slow down at once.",
+      "Risk level 0 (Very Low): Safe conditions.",
+      "Risk level 2 (Moderate): Be vigilant, maintain lane discipline."
+    ],
+    "used_llm": true,
+    "latency_sec": 3.1003,
+    "precision_at_k": 1.0,
+    "recall_at_k": 1.0,
+    "f1_at_k": 1.0,
+    "success": true
+  },
+  {
+    "type": "ask",
+    "timestamp_query": 1767084315.969275,
+    "timestamp_resp": 1767084319.1090932,
+    "query": "What should I do if the system says critical risk?",
+    "answer": "Risk level 4 (Critical): Immediate danger. Slow down at once. Risk level 0 (Very Low): Safe conditions. Risk level 1 (Low): Normal driving but stay cautious.",
+    "chunks": [
+      "Risk level 4 (Critical): Immediate danger. Slow down at once.",
+      "Risk level 0 (Very Low): Safe conditions.",
+      "Risk level 1 (Low): Normal driving but stay cautious."
+    ],
+    "used_llm": true,
+    "latency_sec": 3.1398,
+    "precision_at_k": 1.0,
+    "recall_at_k": 1.0,
+    "f1_at_k": 1.0,
+    "success": true
+  },
+  {
+    "type": "ask",
+    "timestamp_query": 1767084319.436954,
+    "timestamp_resp": 1767084322.624115,
+    "query": "How can I reduce risk while driving fast?",
+    "answer": "Driver distraction increases risk even at low speeds. Risk level 3 (High): Increase following distance and reduce speed. Risk level 1 (Low): Normal driving but stay cautious.",
+    "chunks": [
+      "Driver distraction increases risk even at low speeds.",
+      "Risk level 3 (High): Increase following distance and reduce speed.",
+      "Risk level 1 (Low): Normal driving but stay cautious."
+    ],
+    "used_llm": true,
+    "latency_sec": 3.1871,
+    "precision_at_k": 1.0,
+    "recall_at_k": 1.0,
+    "f1_at_k": 1.0,
+    "success": true
+  },
+  {
+    "type": "ask",
+    "timestamp_query": 1767084322.957184,
+    "timestamp_resp": 1767084326.0462022,
+    "query": "How does speed affect accident risk?",
+    "answer": "Driver distraction increases risk even at low speeds. Risk level 4 (Critical): Immediate danger. Slow down at once. Risk level 3 (High): Increase following distance and reduce speed.",
+    "chunks": [
+      "Driver distraction increases risk even at low speeds.",
+      "Risk level 4 (Critical): Immediate danger. Slow down at once.",
+      "Risk level 3 (High): Increase following distance and reduce speed."
+    ],
+    "used_llm": true,
+    "latency_sec": 3.089,
+    "precision_at_k": 1.0,
+    "recall_at_k": 1.0,
+    "f1_at_k": 1.0,
+    "success": true
+  },
+  {
+    "type": "ask",
+    "timestamp_query": 1767084326.375499,
+    "timestamp_resp": 1767084329.3937862,
+    "query": "What does driver distraction mean?",
+    "answer": "Driver distraction increases risk even at low speeds. Risk level 1 (Low): Normal driving but stay cautious. Risk level 2 (Moderate): Be vigilant, maintain lane discipline.",
+    "chunks": [
+      "Driver distraction increases risk even at low speeds.",
+      "Risk level 1 (Low): Normal driving but stay cautious.",
+      "Risk level 2 (Moderate): Be vigilant, maintain lane discipline."
+    ],
+    "used_llm": true,
+    "latency_sec": 3.0183,
+    "precision_at_k": 1.0,
+    "recall_at_k": 1.0,
+    "f1_at_k": 1.0,
+    "success": true
+  },
+  {
+    "type": "ask",
+    "timestamp_query": 1767084329.7180328,
+    "timestamp_resp": 1767084332.8097742,
+    "query": "Why is following distance important?",
+    "answer": "Risk level 3 (High): Increase following distance and reduce speed. Stereo depth uses SGBM disparity; closer objects have higher disparity. Speed is estimated from object track displacement across frames after calibration.",
+    "chunks": [
+      "Risk level 3 (High): Increase following distance and reduce speed.",
+      "Stereo depth uses SGBM disparity; closer objects have higher disparity.",
+      "Speed is estimated from object track displacement across frames after calibration."
+    ],
+    "used_llm": true,
+    "latency_sec": 3.0917,
+    "precision_at_k": 0.667,
+    "recall_at_k": 1.0,
+    "f1_at_k": 0.8,
+    "success": true
+  },
+  {
+    "type": "ask",
+    "timestamp_query": 1767084333.136651,
+    "timestamp_resp": 1767084336.25693,
+    "query": "What is a safe distance to follow another vehicle?",
+    "answer": "Risk level 3 (High): Increase following distance and reduce speed. Risk level 1 (Low): Normal driving but stay cautious. Risk level 2 (Moderate): Be vigilant, maintain lane discipline.",
+    "chunks": [
+      "Risk level 3 (High): Increase following distance and reduce speed.",
+      "Risk level 1 (Low): Normal driving but stay cautious.",
+      "Risk level 2 (Moderate): Be vigilant, maintain lane discipline."
+    ],
+    "used_llm": true,
+    "latency_sec": 3.1203,
+    "precision_at_k": 1.0,
+    "recall_at_k": 1.0,
+    "f1_at_k": 1.0,
+    "success": true
+  },
+  {
+    "type": "ask",
+    "timestamp_query": 1767084336.5867798,
+    "timestamp_resp": 1767084339.621423,
+    "query": "How does stereo depth help in safety?",
+    "answer": "Stereo depth uses SGBM disparity; closer objects have higher disparity. Driver distraction increases risk even at low speeds. Risk level 3 (High): Increase following distance and reduce speed.",
+    "chunks": [
+      "Stereo depth uses SGBM disparity; closer objects have higher disparity.",
+      "Driver distraction increases risk even at low speeds.",
+      "Risk level 3 (High): Increase following distance and reduce speed."
+    ],
+    "used_llm": true,
+    "latency_sec": 3.0346,
+    "precision_at_k": 0.667,
+    "recall_at_k": 1.0,
+    "f1_at_k": 0.8,
+    "success": true
+  },
+  {
+    "type": "ask",
+    "timestamp_query": 1767084339.949601,
+    "timestamp_resp": 1767084343.0622342,
+    "query": "How does depth estimation affect risk prediction?",
+    "answer": "Stereo depth uses SGBM disparity; closer objects have higher disparity. Risk level 3 (High): Increase following distance and reduce speed. Risk level 1 (Low): Normal driving but stay cautious.",
+    "chunks": [
+      "Stereo depth uses SGBM disparity; closer objects have higher disparity.",
+      "Risk level 3 (High): Increase following distance and reduce speed.",
+      "Risk level 1 (Low): Normal driving but stay cautious."
+    ],
+    "used_llm": true,
+    "latency_sec": 3.1126,
+    "precision_at_k": 0.667,
+    "recall_at_k": 1.0,
+    "f1_at_k": 0.8,
+    "success": true
+  },
+  {
+    "type": "ask",
+    "timestamp_query": 1767084343.3808231,
+    "timestamp_resp": 1767084346.403084,
+    "query": "Why did the system warn me now?",
+    "answer": "Risk level 4 (Critical): Immediate danger. Slow down at once. Risk level 1 (Low): Normal driving but stay cautious. Risk level 2 (Moderate): Be vigilant, maintain lane discipline.",
+    "chunks": [
+      "Risk level 4 (Critical): Immediate danger. Slow down at once.",
+      "Risk level 1 (Low): Normal driving but stay cautious.",
+      "Risk level 2 (Moderate): Be vigilant, maintain lane discipline."
+    ],
+    "used_llm": true,
+    "latency_sec": 3.0222,
+    "precision_at_k": 1.0,
+    "recall_at_k": 1.0,
+    "f1_at_k": 1.0,
+    "success": true
+  },
+  {
+    "type": "ask",
+    "timestamp_query": 1767084346.737458,
+    "timestamp_resp": 1767084349.759475,
+    "query": "How can I improve my driving behavior?",
+    "answer": "Driver distraction increases risk even at low speeds. Risk level 2 (Moderate): Be vigilant, maintain lane discipline. Risk level 1 (Low): Normal driving but stay cautious.",
+    "chunks": [
+      "Driver distraction increases risk even at low speeds.",
+      "Risk level 2 (Moderate): Be vigilant, maintain lane discipline.",
+      "Risk level 1 (Low): Normal driving but stay cautious."
+    ],
+    "used_llm": true,
+    "latency_sec": 3.022,
+    "precision_at_k": 1.0,
+    "recall_at_k": 1.0,
+    "f1_at_k": 1.0,
+    "success": true
   }
 ]
