@@ -47,11 +47,13 @@ It is a **reasoning layer** behind driver-safety systems.
 # 🧠 **3. What the Backend Understands**
 
 The system builds semantic relationships across driver data such as:
-
+```
 [Sudden Braking] -> CONTRIBUTES_TO -> [High Risk]
 [Distracted Driving] -> INCREASES -> [Accident Probability]
 [Historical Pattern] -> EXPLAINS -> [Current Risk Score]
 [Environmental Context] -> AMPLIFIES -> [Driver Error]
+```
+
 
 
 These relationships allow the backend to **justify decisions**, not just compute them.
@@ -176,7 +178,7 @@ python server.py
 
 ---
 ## 📦 Project Structure
-
+```
 driver_backend_langchain/
 │
 ├── data/                     # Knowledge base data
@@ -191,7 +193,7 @@ driver_backend_langchain/
 ├── run_server_ollama.sh      # Ollama runner
 ├── requirements.txt
 └── results.csv
-
+```
 ---
 ## 🔥 Why This Matters
 
