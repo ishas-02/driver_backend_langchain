@@ -98,12 +98,6 @@ This enables offline analysis, benchmarking, and visualization.
 
 ---
 
-Understood.
-You want **ONE single copy-paste block** where **everything (headings + text + commands)** is already formatted **inside `README.md` markdown**, and **nothing outside**.
-
-Here you go — **copy-paste this entire block as-is** 👇
-
----
 
 ````markdown
 ## 🛠️ Installation & Setup
@@ -181,7 +175,8 @@ python server.py
 
 
 ---
-## Project Structure
+## 📦 Project Structure
+
 driver_backend_langchain/
 │
 ├── data/                     # Knowledge base data
@@ -198,7 +193,7 @@ driver_backend_langchain/
 └── results.csv
 
 ---
-## Why This Matters
+## 🔥 Why This Matters
 
 Because safety systems should not be black boxes.
 Because drivers deserve explanations, not just warnings.
@@ -207,7 +202,7 @@ Because trust comes from understanding.
 This backend transforms driver-safety data into interpretable, explainable intelligence.
 
 ---
-## Final Thought
+## 🎉 Final Thought
 
 Driver safety should be about more than alerts.
 
@@ -216,5 +211,5 @@ and acting with clarity.
 
 This backend helps systems not only warn — but explain why.
 ---
-### License
+### 📄 License
 MIT License © 2026 Isha Shetye
