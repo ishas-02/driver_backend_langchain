@@ -1,149 +1,119 @@
-Got it — **one single copy-paste box**, no extra commentary, no explanation outside, **everything included** (story + architecture + install + usage + API + structure).
-Below is exactly that. You can **copy-paste this entire block directly into `README.md`**.
-
----
-
-```markdown
 # 🚗 **Driver Safety Intelligence Backend**
-### *Reasoning About Risk, Context, and Decisions on the Road with RAG & LLMs*
 
-<p align="center">
-  <img src="assets/banner.png" width="75%">
-</p>
+### *Reasoning About Driver Risk, Context, and Safety with RAG & LLMs*
 
 ---
 
-## 🧩 1. The Problem: Safety Systems Detect Risk, but Don’t Explain It
+# 🧩 **1. The Problem: Safety Systems Detect — But Don’t Explain**
 
-Modern driver-safety systems generate large volumes of data:
+Modern driver safety systems generate large volumes of signals:
 
-- Driver behavior classifications  
-- Risk scores  
-- Temporal driving logs  
-- Historical context  
+* Driver behavior classifications  
+* Risk scores and alerts  
+* Temporal driving logs  
+* Historical driving context  
 
-Yet the most important questions remain unanswered:
+Yet the most important questions are often unanswered:
 
-- Why was this drive risky?
-- Which behaviors contributed most?
-- How does this compare to previous sessions?
-- What patterns should we act on next?
+* Why was this driving session marked risky?
+* Which behaviors contributed the most?
+* How does this drive compare to past sessions?
+* What patterns should be addressed proactively?
 
-Most systems **flag risk**.  
-Very few **reason about it**.
+Most systems **detect anomalies**.
+Very few **reason about them**.
 
-Without reasoning, there is no trust.
-Without trust, there is no action.
-
----
-
-## ⭐ 2. The Solution: A Reasoning Backend for Driver Safety
-
-**driver_backend_langchain** is a **LangChain-powered backend** that converts driver-safety data into **explainable, queryable intelligence** using **Retrieval-Augmented Generation (RAG)**.
-
-This backend acts as the *thinking layer* behind safety systems.
-
-It enables:
-- Natural-language reasoning over driver data
-- Context-grounded explanations (not hallucinations)
-- Risk scoring with semantic justification
-- Structured safety report generation
-- Batch evaluation and logging
-
-> Think of it as a *brain* behind driver-safety applications — not just a calculator.
+Drivers, researchers, and safety analysts deserve systems that explain *why*, not just *what*.
 
 ---
 
-## 🧠 3. Architecture: From Data to Decisions
+# ⭐ **2. The Solution: A Reasoning Backend for Driver Safety**
 
-```
+**driver_backend_langchain** is a **LangChain-powered backend** that transforms driver-safety data into **explainable, queryable intelligence** using **Retrieval-Augmented Generation (RAG)**.
 
-```
-               ┌───────────────────────────┐
-               │   Driver Safety Data       │
-               │ (behavior, risk, logs)     │
-               └─────────────┬─────────────┘
-                             ↓
-               ┌───────────────────────────┐
-               │ Knowledge Preparation      │
-               │ (prepare_kb.py)            │
-               └─────────────┬─────────────┘
-                             ↓
-               ┌───────────────────────────┐
-               │ Vector Index Construction  │
-               │ (build_index.py)           │
-               └─────────────┬─────────────┘
-                             ↓
-    ┌────────────────────────────────────────────────┐
-    │         RAG Reasoning Pipeline (LangChain)     │
-    │   • Retrieve relevant context                  │
-    │   • Inject into prompt                         │
-    │   • Generate grounded response                 │
-    └─────────────┬──────────────────────────────────┘
-                  ↓
-  ┌───────────────┬───────────────┬───────────────┐
-  ↓               ↓               ↓               ↓
-```
+Instead of returning isolated predictions, the system:
 
-┌────────────┐  ┌──────────────┐  ┌──────────────┐ ┌──────────────┐
-│ API Reply  │  │ Risk Scoring │  │ CSV Logging  │ │ Reports      │
-│ (/query)   │  │ (/risk)      │  │ (results)   │ │ (/report)    │
-└────────────┘  └──────────────┘  └──────────────┘ └──────────────┘
+* Retrieves relevant historical and contextual data
+* Grounds responses in evidence
+* Generates natural-language explanations
+* Produces structured safety reports
+* Logs outputs for evaluation and analysis
 
-```
-
-Every response is **grounded in retrieved evidence**, ensuring explainability and consistency.
+It is not just an inference engine.  
+It is a **reasoning layer** behind driver-safety systems.
 
 ---
 
-## 🧬 4. What the System Understands (Examples)
+# 🧠 **3. What the Backend Understands**
 
-```
+The system builds semantic relationships across driver data such as:
 
 [Sudden Braking] -> CONTRIBUTES_TO -> [High Risk]
 [Distracted Driving] -> INCREASES -> [Accident Probability]
 [Historical Pattern] -> EXPLAINS -> [Current Risk Score]
 [Environmental Context] -> AMPLIFIES -> [Driver Error]
 
-````
 
-These semantic relationships form the **knowledge backbone** of the system.
-
----
-
-## 🎨 5. What the Backend Produces
-
-- 🤖 Natural-language answers to safety questions  
-- 📊 Risk scores with explanation  
-- 🧾 Structured safety reports  
-- 📈 Evaluation metrics logged to CSV  
-
-Example questions:
-- “Why was this driving session marked high risk?”
-- “Which behaviors contributed the most?”
-- “Compare today’s drive with last week”
+These relationships allow the backend to **justify decisions**, not just compute them.
 
 ---
 
-## 🛠️ 6. Installation & Setup
+# 🎨 **4. What the System Produces**
 
-### 1️⃣ Clone the repository
+### 🤖 Natural-Language Reasoning
 
-```bash
-git clone https://github.com/ishas-02/driver_backend_langchain.git
-cd driver_backend_langchain
-````
+Ask questions like:
+
+* “Why was this driving session high risk?”
+* “Which behaviors contributed the most?”
+* “Compare today’s drive with last week”
+
+The backend responds with **context-grounded explanations**, not hallucinations.
 
 ---
+
+### 📊 Risk Scores with Context
+
+Risk values are returned alongside semantic reasoning — not as black-box numbers.
+
+---
+
+### 🧾 Structured Safety Reports
+
+Automatically generated reports that can be shared with:
+
+* Drivers  
+* Fleet managers  
+* Safety researchers  
+* Analytics dashboards  
+
+---
+
+### 📈 Evaluation Logs
+
+All batch-query outputs and metadata are saved to:
+
+
+This enables offline analysis, benchmarking, and visualization.
+
+---
+
+Understood.
+You want **ONE single copy-paste block** where **everything (headings + text + commands)** is already formatted **inside `README.md` markdown**, and **nothing outside**.
+
+Here you go — **copy-paste this entire block as-is** 👇
+
+---
+
+````markdown
+## 🛠️ Installation & Setup
 
 ### 2️⃣ Create a virtual environment (recommended)
 
 ```bash
 python3 -m venv venv
 source venv/bin/activate
-```
-
----
+````
 
 ### 3️⃣ Install dependencies
 
@@ -153,13 +123,15 @@ pip install -r requirements.txt
 
 ---
 
-## ⚙️ 7. Running the System
+## ⚙️ Running the System
 
 ### Step 1: Prepare the Knowledge Base
 
 ```bash
 python prepare_kb.py
 ```
+
+Preprocesses and cleans the data used for retrieval.
 
 ---
 
@@ -169,27 +141,29 @@ python prepare_kb.py
 python build_index.py
 ```
 
+Creates embeddings and stores them in a vector index for fast retrieval.
+
 ---
 
 ### Step 3: Start the Backend Server
 
-Choose one LLM backend:
+Choose your preferred LLM backend.
 
-#### ▶ Using FLAN-T5
+####  Using FLAN-T5
 
 ```bash
 ./run_server_flant5.sh
 ```
 
-#### ▶ Using Ollama
+####  Using Ollama
 
 ```bash
 ./run_server_ollama.sh
 ```
 
-> Ensure Ollama is running locally before starting.
+Ensure Ollama is running locally before launching.
 
-#### ▶ Direct Python execution
+#### Direct Python execution
 
 ```bash
 python server.py
@@ -197,7 +171,7 @@ python server.py
 
 ---
 
-## 🌐 8. API Endpoints (Representative)
+## 🌐 API Capabilities (Representative)
 
 | Endpoint  | Method | Description                           |
 | --------- | ------ | ------------------------------------- |
@@ -205,29 +179,9 @@ python server.py
 | `/risk`   | POST   | Driver risk score computation         |
 | `/report` | GET    | Generate structured safety report     |
 
----
-
-## 🧪 9. Batch Evaluation & Metrics
-
-Run predefined queries:
-
-```bash
-./run_15_queries.sh
-```
-
-All outputs, metadata, and metrics are saved to:
-
-```text
-results.csv
-```
-
-This supports offline analysis, benchmarking, and visualization.
 
 ---
-
-## 📦 10. Project Structure
-
-```
+## Project Structure
 driver_backend_langchain/
 │
 ├── data/                     # Knowledge base data
@@ -242,60 +196,25 @@ driver_backend_langchain/
 ├── run_server_ollama.sh      # Ollama runner
 ├── requirements.txt
 └── results.csv
-```
 
 ---
-
-## 🚀 11. Why This Matters
+## Why This Matters
 
 Because safety systems should not be black boxes.
-Because drivers deserve explanations, not just alerts.
+Because drivers deserve explanations, not just warnings.
 Because trust comes from understanding.
 
-This backend turns driver-safety data into **interpretable intelligence**.
+This backend transforms driver-safety data into interpretable, explainable intelligence.
 
 ---
+## Final Thought
 
-## 🔮 12. Future Directions
+Driver safety should be about more than alerts.
 
-* Multi-modal integration (vision + telemetry)
-* Long-horizon temporal risk reasoning
-* Personalized driver profiles
-* Frontend & dashboard integrations
-* Cloud-ready deployment
+It should be about understanding behavior, context, and risk —
+and acting with clarity.
 
+This backend helps systems not only warn — but explain why.
 ---
-
-## 🤝 Contributing
-
-Contributions are welcome.
-
-1. Fork the repository
-2. Create a new branch
-3. Commit your changes
-4. Open a Pull Request
-
----
-
-## 📄 License
-
-```
+### License
 MIT License © 2026 Isha Shetye
-```
-
----
-
-## 🌟 Final Note
-
-This is not just a backend.
-
-It is a **reasoning layer** — designed to make road safety
-**explainable, accountable, and actionable**.
-
-Let systems not only warn —
-but understand *why*.
-
-```
-
----
-
